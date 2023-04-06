@@ -10,6 +10,7 @@ class GarbageCL {
 	
 	protected void finalize() {
 		System.out.printf("Garbage(%d) 수거\n", no);
+		//가비지의 생성 순서와 수거 순서는 무관
 	}
 }
 
@@ -19,7 +20,7 @@ public class Garbage {
 		for (int i = 0; i < 3; i++)
 			new GarbageCL(i);
 		
-		System.gc();
+		System.gc();  //가비지 콜랙터 (자바 버추얼머신)JBM에게 요청
 	}
 
 }
