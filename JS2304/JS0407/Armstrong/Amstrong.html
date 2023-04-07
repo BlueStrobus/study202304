@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amstrong Function and Solution</title>
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<h1>Amstrong Function and Solution</h1>
+	<p>Enter a number to check if it is an Amstrong number:</p>
+	<input type="number" id="input-number">
+	<button onclick="checkAmstrong()">Check</button>
+	<p id="result"></p>
+	
+	<script>
+		function checkAmstrong() {
+			let input = document.getElementById("input-number").value;
+			let sum = 0;
+			let digits = input.toString().split("");
+			let numDigits = digits.length;
+			
+			for (let i = 0; i < numDigits; i++) {
+				sum += Math.pow(parseInt(digits[i]), numDigits);
+			}
+			
+			if (sum == input) {
+				document.getElementById("result").innerHTML = input + " is an Amstrong number.";
+			} else {
+				document.getElementById("result").innerHTML = input + " is not an Amstrong number.";
+			}
+		}
+	</script>
+</body>
+</html>
