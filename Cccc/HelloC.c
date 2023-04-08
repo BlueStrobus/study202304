@@ -1,10 +1,14 @@
 #include <stdio.h>
 int main (void){
+    //5. printf
+    int add = 3 + 7 ; //10
+    printf("3 + 7 = %d\n", add);
+    printf("%d + %d = %d\n", 3, 7, add);
 
-    //상수형 변수
-    const int YEAR = 2000; //상수 : 변경하지 않는 변수; 변수명 대문자로만 적기
-    printf("태어난 년도 : %d\n", YEAR);
-    //YEAR = 2001;
+
+    printf("%d X %d = %d\n", 30, 79, 30*79);
+
+
     return 0;
 
 
@@ -13,6 +17,14 @@ int main (void){
 
 
 /*
+
+    //4.상수형 변수
+    // const int YEAR = 2000; //상수 : 변경하지 않는 변수; 변수명 대문자로만 적기
+    // printf("태어난 년도 : %d\n", YEAR);
+    // //YEAR = 2001;
+    // return 0;
+
+
     //3. 실수형 변순
     // float y = 46.5f; //float로 선언한 변수의 값에는 f가 붙어야 함
     // printf("%.2f\n",y); // %.2f : 소숫점 뒷자리 2번째 자리까지 표시
