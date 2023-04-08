@@ -1,8 +1,13 @@
 #include <stdio.h>
 int main (void){
 
+    //상수형 변수
+    const int YEAR = 2000; //상수 : 변경하지 않는 변수; 변수명 대문자로만 적기
+    printf("태어난 년도 : %d\n", YEAR);
+    //YEAR = 2001;
+    return 0;
 
-    
+
 
 
 
