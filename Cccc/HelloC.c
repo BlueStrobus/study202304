@@ -4,7 +4,13 @@ int main (void){
     //3. 실수형 변순
 
     float y = 46.5f; //float로 선언한 변수의 값에는 f가 붙어야 함
-    printf("%f\n",y);
+    printf("%.2f\n",y); // %.2f : 소숫점 뒷자리 2번째 자리까지 표시
+    double d = 4.428;
+    printf("%.2f",d);
+
+
+
+    return 0;
 
 
     //2. 개인정보 입력
