@@ -1,15 +1,16 @@
 #include <stdio.h>
 int main (void){
-    //5. printf
-    int add = 3 + 7 ; //10
-    printf("3 + 7 = %d\n", add);
-    printf("%d + %d = %d\n", 3, 7, add);
 
-
-    printf("%d X %d = %d\n", 30, 79, 30*79);
-
+    //6. scanf
+    //키보드 입력을 받아 저장
+    int input;
+    printf("값을 입력하세요 : ");
+    scanf_s("%d", &input);
+    printf("입력값 : %d\n", input);
 
     return 0;
+    
+
 
 
 
@@ -17,6 +18,16 @@ int main (void){
 
 
 /*
+
+
+    //5. printf
+    // int add = 3 + 7 ; //10
+    // printf("3 + 7 = %d\n", add);
+    // printf("%d + %d = %d\n", 3, 7, add);
+
+    // printf("%d X %d = %d\n", 30, 79, 30*79);
+    // return 0;
+
 
     //4.상수형 변수
     // const int YEAR = 2000; //상수 : 변경하지 않는 변수; 변수명 대문자로만 적기
