@@ -3,17 +3,23 @@ int main (void){
 
     //6. scanf
     //키보드 입력을 받아 저장
-    int input;
-    printf("값을 입력하세요: ");
-    scanf("%d", &input);
-    printf("입력값: %d\n", input);
-    return 0;
+    // int input;
+    // printf("값을 입력하세요: ");
+    // scanf("%d", &input);
+    // printf("입력값: %d\n", input);
+    // return 0;
     
 
 
 
 
+//5. printf
+    int add = 3 + 7 ; //10
+    printf("3 + 7 = %d\n", add);
+    printf("%d + %d = %d\n", 3, 7, add);
 
+    printf("%d X %d = %d\n", 30, 79, 30*79);
+    return 0;
 
 
 /*
