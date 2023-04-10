@@ -4,10 +4,9 @@ int main (void){
     //6. scanf
     //키보드 입력을 받아 저장
     int input;
-    printf("값을 입력하세요 : ");
-    scanf_s("%d", &input);
-    printf("입력값 : %d\n", input);
-
+    printf("값을 입력하세요: ");
+    scanf("%d", &input);
+    printf("입력값: %d\n", input);
     return 0;
     
 
