@@ -5,6 +5,10 @@ print(pyautogui.position())  #화면 크기 출력
 # time.sleep(3)  #3초 쉬고
 width,height = pyautogui.size()
 print('width={0}, height={1}'.format(width, height))
+################
+# 출력
+# Point(x=4193, y=185)
+# width=3840, height=2160
 
 
 
